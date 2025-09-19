@@ -1,7 +1,23 @@
         body {
             background-color: rgb(221, 175, 220);
-            font-family:'Courier New', Courier, monospace
+            font-family:'Courier New', Courier, monospace;
+            animation: bodybg 4s infinite;
         }
+        @keyframes bodybg {
+            0% {
+                background-color: rgb(221, 175, 220);
+            }
+
+            50% {
+                background-color: rgb(232, 94, 94);
+            }
+
+            100% {
+                background-color: rgb(221, 175, 220);
+            }
+            
+             }
+        
 
         h1 {
             color: rgb(121, 78, 120) ; 
@@ -52,20 +68,6 @@
 
         }
 
-        @keyframes fall {
-        0% {
-         transform: translateY(-100px) translateX(calc(var(--random-x) * 100vw)); /* Start above, random horizontal position */
-         opacity: 0;
-         }
-         20% {
-          opacity: 1; /* Fade in */
-         }
-        80% {
-         opacity: 1; /* Stay visible during fall */
-         }
-        100% {
-        transform: translateY(calc(100vh + 100px)) translateX(calc(var(--random-x) * 100vw)); /* Fall below, maintain random horizontal position */
-        opacity: 0; /* Fade out */
-         }
+        
 }
         
