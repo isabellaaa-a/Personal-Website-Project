@@ -1,73 +1,76 @@
-        body {
-            background-color: rgb(221, 175, 220);
-            font-family:'Courier New', Courier, monospace;
-            animation: bodybg 4s infinite;
-        }
-        @keyframes bodybg {
-            0% {
-                background-color: rgb(221, 175, 220);
-            }
-
-            50% {
-                background-color: rgb(232, 94, 94);
-            }
-
-            100% {
-                background-color: rgb(221, 175, 220);
-            }
-            
-             }
-        
-
-        h1 {
-            color: rgb(121, 78, 120) ; 
-            text-align: center;
-           font-size: 50px;
-        }
-
-        p {
-            color: rgb(121, 78, 120);
-            font-size: 18px;
-        }
-
-        img {
-            border: 70px solid transparent;
-            border-image: url(https://png.pngtree.com/png-vector/20230104/ourmid/pngtree-valentines-day-simple-heart-border-square-heart-border-png-image_6549690.png) 60 round;
-           
-  
-        }
-
-        table, th, td {
-            border: 2px solid rgb(121, 78, 120); 
-            border-collapse: collapse; 
-        }
-
-        ul {
-            color: rgb(121, 78, 120);
-            font-size: 18px;
-           
-        }
-
-        h2 {
-            color: rgb(121, 78, 120);
-            
-        }
-
-        #firstimage {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        table {
-            font-size: medium;
-        }
-
-        #page2 {
-            color: rgb(226, 43, 67);
-
-        }
-
-        
+body {
+    background-color: rgb(221, 175, 220);
+    font-family:'Courier New', Courier, monospace;
+    animation: bodybg 4s infinite;
 }
-        
+@keyframes bodybg {
+    0% {
+        background-color: rgb(221, 175, 220);
+    }
+
+    50% {
+        background-color: rgb(232, 94, 94);
+    }
+
+    100% {
+        background-color: rgb(221, 175, 220);
+    }
+    
+        }
+
+
+h1 {
+    color: rgb(121, 78, 120) ; 
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: rgb(121, 78, 120);
+    font-size: 18px;
+}
+
+
+table, th, td {
+    border: 2px solid rgb(121, 78, 120); 
+    border-collapse: collapse; 
+}
+
+ul {
+    color: rgb(121, 78, 120);
+    font-size: 18px;
+    
+}
+
+h2 {
+    color: rgb(121, 78, 120);
+    
+}
+
+#firstimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-size: medium;
+    color: rgb(121, 78, 120);
+}
+
+#newpages {
+    color: rgb(226, 43, 67);
+
+}
+
+#heartsborder {
+    border: 70px solid transparent;
+    border-image: url(https://png.pngtree.com/png-vector/20230104/ourmid/pngtree-valentines-day-simple-heart-border-square-heart-border-png-image_6549690.png) 60 round;
+}
+
+.page2 {
+    text-align: center;
+}
+
+
+
